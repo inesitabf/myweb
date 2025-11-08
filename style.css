@@ -156,12 +156,7 @@ body{
   .hero__title{font-size:44px}
   .nav__links{gap:12px}
 }
-@media (max-width: 600px){
-  .metrics{
-    grid-template-columns: 1fr;
-    gap:18px;
-  }
-}
+
 
 
 
