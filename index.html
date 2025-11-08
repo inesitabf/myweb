@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ONETAP – Contactless Identity, Access & Payments for Hotels</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <div class="nav__brand">
+        <img src="image1.jpg" alt="ONETAP avatar" class="avatar" />
+        <span>ONETAP</span>
+      </div>
+      <nav class="nav__links">
+        <a href="#benefits">Benefits</a>
+        <a href="#how">How it works</a>
+        <a href="#values">Value</a>
+        <a href="#roi">ROI</a>
+        <button class="btn btn--primary js-open-typeform">Request ONETAP pilot</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero__overlay"></div>
+    <div class="hero__bg" style="background-image:url('banner.jpg');"></div>
+
+    <div class="container hero__content">
+      <h1 class="hero__title">ONETAP: one wristband for every guest moment</h1>
+      <p class="hero__subtitle">
+        Identity, room access and payments unified—boost on-property spend while eliminating charge errors and disputed bills.
+      </p>
+      <div class="hero__ctas">
+        <button class="btn btn--primary btn--lg js-open-typeform">Request ONETAP pilot</button>
+        <button class="btn btn--ghost btn--lg" id="open-xp">Experience the product</button>
+      </div>
+      <p class="hero__note">Designed for global luxury & premium resorts · Privacy-by-design</p>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="section" id="benefits">
+    <div class="container section__narrow reveal">
+      <h2 class="section__title">Revenue up. Friction down. Guests delighted.</h2>
+      <p class="lead">
+        ONETAP modernizes the resort journey with a single NFC wristband that opens doors, pays everywhere
+        and turns each interaction into usable intelligence—effortlessly.
+      </p>
+      <ul class="bullets">
+        <li><strong>+12–18% on-site revenue</strong> by removing payment friction.</li>
+        <li><strong>Guest VIP flow</strong>—no cards, no fumbling, no queues.</li>
+        <li><strong>Unified identity</strong> across outlets; age/area rules enforced at tap.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section--tint" id="how">
+    <div class="container reveal">
+      <h2 class="section__title">How it works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <h3>Issue at check-in</h3>
+          <p>Wristbands linked to the reservation & spend profile, sized for adults & kids.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <h3>Tap to access & pay</h3>
+          <p>Rooms, spa, gym and all POS—1 tap. Enforce adult-only areas at the reader.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <h3>Intelligence</h3>
+          <p>Structured events feed CRM & analytics to anticipate offers in real time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE PROPS (expandable cards) -->
+  <section class="section" id="values">
+    <div class="container">
+      <h2 class="section__title reveal">Core value</h2>
+
+      <div class="cards reveal">
+        <article class="card card--expandable">
+          <img src="unlock.jpg" alt="Unlock Every Space">
+          <div class="card__body">
+            <h3>Unlock Every Space</h3>
+            <p>Friction-free access to rooms, spa, gym & private areas with one wristband.</p>
+            <button class="card__toggle" aria-expanded="false">Learn more</button>
+            <div class="card__more" hidden>
+              <ul>
+                <li>Reduce reprints & key incidents</li>
+                <li>VIP flow from arrival to late check-out</li>
+                <li>Adult-only enforcement at door</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--expandable">
+          <img src="payment.jpg" alt="Faster Revenue Capture">
+          <div class="card__body">
+            <h3>Faster Revenue Capture</h3>
+            <p>1-tap payments at F&amp;B, activities & add-ons. No card handling. No friction.</p>
+            <button class="card__toggle" aria-expanded="false">Learn more</button>
+            <div class="card__more" hidden>
+              <ul>
+                <li>Higher impulse conversion poolside</li>
+                <li>Shorter lines, higher table turns</li>
+                <li>Auto room-charge & spend controls</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--expandable">
+          <img src="deny.jpg" alt="Unified Identity">
+          <div class="card__body">
+            <h3>Unified Identity</h3>
+            <p>One profile across outlets. Every tap becomes structured intel.</p>
+            <button class="card__toggle" aria-expanded="false">Learn more</button>
+            <div class="card__more" hidden>
+              <ul>
+                <li>Segments by family / age / cohort</li>
+                <li>Location-aware access policies</li>
+                <li>Audit trail for compliance</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--expandable">
+          <img src="analytics.jpg" alt="Data-Driven Personalization">
+          <div class="card__body">
+            <h3>Data-Driven Personalization</h3>
+            <p>Right offer · right guest · right moment. Privacy by design.</p>
+            <button class="card__toggle" aria-expanded="false">Learn more</button>
+            <div class="card__more" hidden>
+              <ul>
+                <li>Time-of-day & cohort triggers</li>
+                <li>Attribution to outlet & channel</li>
+                <li>CRM sync & loyalty readiness</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROI / LEAKAGE -->
+  <section class="section section--tint" id="roi">
+    <div class="container reveal">
+      <h2 class="section__title">The ONETAP ROI</h2>
+
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric__value">+12–18%</div>
+          <div class="metric__label">On-property revenue uplift</div>
+        </div>
+        <div class="metric">
+          <div class="metric__value">−6% → ~0%</div>
+          <div class="metric__label">Charge leakage (errors, disputes, missed posts)</div>
+        </div>
+        <div class="metric">
+          <div class="metric__value">×1.2–1.3</div>
+          <div class="metric__label">Profit multiplier from leakage removal*</div>
+        </div>
+      </div>
+
+      <p class="micro">
+        * Hotels typically run 20–30% profit margins. If ~6% of revenue is lost to charge errors/disputes,
+        removing that leakage increases profit by ~20–30% without growing revenue.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© ONETAP</span>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <!-- EXPERIENCE THE PRODUCT — SLIDES MODAL -->
+  <div class="modal xp-modal" id="xp-modal" aria-hidden="true">
+    <div class="modal__backdrop" id="xp-backdrop"></div>
+    <div class="modal__content xp-content" role="dialog" aria-modal="true" aria-labelledby="xp-title">
+      <button class="modal__close" id="xp-close" aria-label="Close">×</button>
+      <h3 id="xp-title" class="xp-title">Experience ONETAP</h3>
+
+      <div class="xp-slides" id="xp-slides">
+        <!-- 1 Guest: Arrival -->
+        <section class="xp-slide is-active">
+          <h4>Arrival · Instant Check-in</h4>
+          <p>Wristbands issued in seconds. Adults & kids sized; identity linked to the reservation.</p>
+        </section>
+
+        <!-- 2 Guest: Access -->
+        <section class="xp-slide">
+          <h4>One-tap Access Everywhere</h4>
+          <p>Rooms, spa, gym, beach club. Adult-only areas enforced at the reader. No keys. No cards.</p>
+        </section>
+
+        <!-- 3 Guest: Payments -->
+        <section class="xp-slide">
+          <h4>Pool Bar · 1-Tap Payments</h4>
+          <p>Order, tap, done. No signatures, no wallets. Impulse purchases convert effortlessly.</p>
+        </section>
+
+        <!-- 4 Guest: Controls -->
+        <section class="xp-slide">
+          <h4>Family Controls · Safety by Design</h4>
+          <p>Kids’ wristbands with access rules. 18+ zones denied automatically.</p>
+        </section>
+
+        <!-- 5 Hotel: Intelligence -->
+        <section class="xp-slide">
+          <h4>Unified Identity → Intelligence</h4>
+          <p>Every tap becomes structured data: spend by hour, outlet, segment—feeding CRM in real time.</p>
+        </section>
+
+        <!-- 6 Hotel: Zero Leakage -->
+        <section class="xp-slide">
+          <h4>Near-Zero Leakage</h4>
+          <p>Auto room-charge, reconciliation & audit trail. Errors and disputed charges drop dramatically.</p>
+        </section>
+
+        <!-- 7 Punch: Profit -->
+        <section class="xp-slide">
+          <h4>Profit ↑ 20–30% · No New Revenue Needed</h4>
+          <p>Removing ~6% revenue leakage lifts net profit by ×1.2–×1.3. Operations become margin.</p>
+          <button class="btn btn--primary btn--lg js-open-typeform" style="margin-top:12px">Request ONETAP pilot</button>
+        </section>
+      </div>
+
+      <div class="xp-nav">
+        <button class="xp-prev" aria-label="Previous">‹</button>
+        <button class="xp-next" aria-label="Next">›</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TYPEFORM FULLSCREEN MODAL -->
+  <div class="modal" id="tf-modal" aria-hidden="true">
+    <div class="modal__backdrop" id="tf-backdrop"></div>
+    <div class="modal__content tf-content" role="dialog" aria-modal="true" aria-labelledby="tf-title">
+      <button class="modal__close" id="tf-close" aria-label="Close">×</button>
+      <h3 id="tf-title" style="margin:0 0 10px">Request ONETAP pilot</h3>
+      <iframe
+        id="tf-iframe"
+        title="ONETAP pilot form"
+        src="https://form.typeform.com/to/ao1QZIBy"
+        allow="camera; microphone; autoplay; encrypted-media; fullscreen; geolocation"
+        style="width:100%; height:78vh; border:0; border-radius:12px; background:#0b0e13">
+      </iframe>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
